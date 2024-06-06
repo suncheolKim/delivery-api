@@ -1,0 +1,20 @@
+spring:
+    application:
+        name: delivery-api
+
+    datasource:
+        driver-class-name: com.mysql.cj.jdbc.Driver
+        url: jdbc:mysql://192.168.1.20:3306/bulkorder
+        username: ${username}
+        password: ${password}
+
+    jpa:
+        database: MYSQL
+        hibernate:
+            ddl-auto: none
+
+    sql:
+        init:
+            mode: always
+            schema-locations: classpath:schema.sql
+            data-locations: classpath:data.sql

@@ -1,0 +1,21 @@
+INSERT INTO food (name) VALUES ('피자');
+INSERT INTO food (name) VALUES ('초밥');
+INSERT INTO food (name) VALUES ('버거');
+INSERT INTO food (name) VALUES ('파스타');
+INSERT INTO food (name) VALUES ('샐러드');
+INSERT INTO food (name) VALUES ('스테이크');
+INSERT INTO food (name) VALUES ('라면');
+INSERT INTO food (name) VALUES ('타코');
+INSERT INTO food (name) VALUES ('볶음밥');
+INSERT INTO food (name) VALUES ('김밥');
+
+INSERT INTO parcel (description) VALUES ('전자 제품');
+INSERT INTO parcel (description) VALUES ('책');
+INSERT INTO parcel (description) VALUES ('의류');
+INSERT INTO parcel (description) VALUES ('장난감');
+INSERT INTO parcel (description) VALUES ('가구');
+INSERT INTO parcel (description) VALUES ('스포츠 용품');
+INSERT INTO parcel (description) VALUES ('악기');
+INSERT INTO parcel (description) VALUES ('주방 용품');
+INSERT INTO parcel (description) VALUES ('화장품');
+INSERT INTO parcel (description) VALUES ('공구');
